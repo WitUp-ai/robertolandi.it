@@ -1,61 +1,447 @@
 <!DOCTYPE html>
-  <html lang="it">
+<html lang="it">
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Roberto Landi</title>
-      <link rel="stylesheet" href="style.css">
+      <title>Roberto Landi – Advanced Dental Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
-  <body>
-      <header>
-          <nav>
-              <div class="logo">Roberto Landi</div>
-              <ul>
-                  <li><a href="#about">Chi sono</a></li>
-                  <li><a href="#services">Servizi</a></li>
-                  <li><a href="#contact">Contatti</a></li>
-              </ul>
-          </nav>
-      </header>
+<body>
 
-      <main>
-          <section id="hero">
-              <h1>Ciao, sono Roberto Landi</h1>
-            <p>Benvenuto nel mio sito web</p>
-              <a href="#contact" class="btn">Contattami</a>
-          </section>
+    <!-- HEADER -->
+    <header id="header">
+          <div class="header-inner">
+                  <a href="#home" class="logo-link">
+                            <img src="logo.png" alt="Roberto Landi – Advanced Dental Solutions" class="logo-img">
+                  </a>a>
+                  <nav>
+                            <ul>
+                                        <li><a href="#home">Home</a>a></li>
+                                      <li><a href="#chi-siamo">Chi Siamo</a>a></li>
+                                      <li><a href="#trattamenti">Trattamenti</a>a></li>
+                                      <li><a href="#roberto-landi">Il Dottore</a>a></li>
+                                      <li><a href="#contatti">Contatti</a>a></li>
+                                      <li><a href="#prenota" class="btn-prenota">Prenota una Visita</a>a></li>
+                            </ul>
+                  </nav>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                        <i class="fas fa-bars"></i>i>
+                </button>button>
+          </div>div>
+    </header>header>
 
-          <section id="about">
-              <h2>Chi sono</h2>
-              <p>Inserisci qui una breve descrizione di te, della tua esperienza e delle tue passioni.</p>
-        </section>
+  <!-- HERO -->
+  <section id="home" class="hero">
+      <div class="hero-overlay"></div>div>
+      <div class="hero-content">
+            <h1>Tecnologia Dentale<br>di Roberto Landi</h1>
+            <p>Da Oggi, con lo Studio dentistico Landi sorridere è più facile.</p>
+            <div class="hero-buttons">
+                    <a href="#prenota" class="btn-primary">Prenota una Visita</a>a>
+                    <a href="#trattamenti" class="btn-outline">Scopri i Trattamenti</a>a>
+            </div>div>
+      </div>div>
+  </section>section>
 
-        <section id="services">
-            <h2>Servizi</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>Servizio 1</h3>
-                      <p>Descrizione del primo servizio che offri.</p>
-                  </div>
-                  <div class="card">
-                      <h3>Servizio 2</h3>
-                      <p>Descrizione del secondo servizio che offri.</p>
-                  </div>
-                  <div class="card">
-                      <h3>Servizio 3</h3>
-                      <p>Descrizione del terzo servizio che offri.</p>
-                  </div>
+  <!-- PUNTI DI FORZA -->
+  <section class="highlights">
+      <div class="container">
+            <div class="highlight-grid">
+                    <div class="highlight-item">
+                              <i class="fas fa-tooth"></i>i>
+                              <h3>Cura Indolore</h3>
+                              <p>Con le nostre tecnologie avanzate, tutti i nostri trattamenti sono praticamente indolori.</p>
+                    </div>div>
+                    <div class="highlight-item">
+                              <i class="fas fa-house-medical"></i>i>
+                              <h3>Interventi Domiciliari</h3>
+                              <p>Forniamo un servizio personalizzato: la professionalità del nostro team direttamente a casa tua per ogni esigenza.</p>
+                    </div>div>
+                    <div class="highlight-item">
+                              <i class="fas fa-teeth"></i>i>
+                              <h3>Riparazione Tempestiva Protesi</h3>
+                              <p>La protesi rotta viene riparata al momento, evitando i costi di sostituzione totale.</p>
+                    </div>div>
+                    <div class="highlight-item">
+                              <i class="fas fa-phone-volume"></i>i>
+                              <h3>Pronto Soccorso Dentale</h3>
+                              <p>Offriamo un servizio immediato attraverso il Numero Verde. Rispondiamo alle vostre chiamate anche con medico a domicilio.</p>
+                    </div>div>
+            </div>div>
+      </div>div>
+  </section>section>
+
+  <!-- CHI SIAMO -->
+  <section id="chi-siamo" class="chi-siamo">
+      <div class="container">
+            <div class="section-header">
+                    <h2>Chi Siamo</h2>
+                    <div class="section-divider"></div>div>
+            </div>div>
+            <div class="chi-siamo-grid">
+                    <div class="chi-siamo-text">
+                              <h3>La nostra forza è il gruppo.</h3>
+                              <p>Lo <strong>Studio Landi</strong> si avvale di un'equipe altamente qualificata, in grado di risolvere ogni problematica relativa ai più svariati casi, garantendo ad ogni singolo paziente professionalità e disponibilità.</p>
+                              <p>Le diverse attitudini di ciascun membro dell'equipe mettono a disposizione dei pazienti un approccio multidisciplinare al fine di ottenere una diagnosi ed un piano di trattamento che affrontano tutte le problematiche relative ad ogni singolo caso a 360 gradi.</p>
+                              <p>La nostra missione è quella di regalarvi uno splendido sorriso.</p>
+                              <div class="stats">
+                                          <div class="stat">
+                                                        <span class="stat-number">30+</span>span>
+                                                        <span class="stat-label">Anni di Esperienza</span>span>
+                                          </div>div>
+                                          <div class="stat">
+                                                        <span class="stat-number">5000+</span>span>
+                                                        <span class="stat-label">Pazienti Soddisfatti</span>span>
+                                          </div>div>
+                                          <div class="stat">
+                                                        <span class="stat-number">10+</span>span>
+                                                        <span class="stat-label">Specializzazioni</span>span>
+                                          </div>div>
+                              </div>div>
+                    </div>div>
+                    <div class="chi-siamo-features">
+                              <div class="feature-item">
+                                          <div class="feature-icon"><i class="fas fa-bolt"></i>i></div>div>
+                                          <div>
+                                                          <h4>Servizio Rapido</h4>
+                                                          <p>Garantiamo in ogni occasione un intervento rapido e risolutivo, con elevati standard qualitativi.</p>
+                                          </div>
+                              </div>
+                              <div class="feature-item">
+                                          <div class="feature-icon"><i class="fas fa-star"></i>i></div>
+                                          <div>
+                                                        <h4>Professionalità</h4>
+                                                        <p>Team di odontoiatri certificati con le più moderne attrezzature in un moderno centro medico.</p>
+                                          </div>
+                              </div>
+                              <div class="feature-item">
+                                          <div class="feature-icon"><i class="fas fa-shield-halved"></i>i></div>
+                                          <div>
+                                                        <h4>Servizi Unici</h4>
+                                                        <p>Un'equipe di medici che sarà lieta di offrire qualsiasi tipo di trattamento sul dente.</p>
+                                          </div>
+                              </div>
+                              <div class="feature-item">
+                                          <div class="feature-icon"><i class="fas fa-microscope"></i>i></div>
+                                          <div>
+                                                        <h4>Attrezzature all'Avanguardia</h4>
+                                                        <p>Servizio personalizzato utilizzando le più recenti tecniche ed attrezzature.</p>
+                                          </div>
+                              </div>
+                    </div>
+            </div>
+      </div>
+  </section>section>
+
+  <!-- TRATTAMENTI -->
+  <section id="trattamenti" class="trattamenti">
+      <div class="container">
+            <div class="section-header">
+                    <h2>I Nostri Trattamenti</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Offriamo una vasta gamma di trattamenti odontoiatrici con le tecnologie più avanzate</p>
+            </div>
+            <div class="trattamenti-grid">
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-scalpel"></i>i></div>
+                              <h3>Chirurgia Orale</h3>
+                              <p>Interventi chirurgici orali eseguiti con precisione e tecnologie all'avanguardia per il massimo comfort del paziente.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-teeth-open"></i>i></div>
+                              <h3>Protesi</h3>
+                              <p>Realizzazione di protesi dentali fisse e mobili di alta qualità, studiate su misura per ogni paziente.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-sparkles"></i>i></div>
+                              <h3>Sbiancamento</h3>
+                              <p>Trattamento cosmetico conservativo che permette di recuperare un colore più chiaro e luminoso ai denti.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-x-ray"></i>i></div>
+                              <h3>Radiografia Digitale 3D</h3>
+                              <p>Radiografie 3D myRay con la minima dose di raggi: immagini ad altissima qualità per una diagnosi precisa.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-syringe"></i>i></div>
+                              <h3>Endodonzia</h3>
+                              <p>Terapia canalare per la cura dell'endodonto e conservazione dell'elemento dentario anche nelle situazioni più gravi.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-align-center"></i>i></div>
+                              <h3>Ortodonzia</h3>
+                              <p>Correzione di denti storti e malocclusioni con apparecchi fissi e rimovibili di ultima generazione.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-pump-medical"></i>i></div>
+                              <h3>Igiene Dentale</h3>
+                              <p>Pulizia professionale dei denti per rimuovere placca e tartaro, prevenendo carie e malattie gengivali.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-heart-pulse"></i>i></div>
+                              <h3>Odontoiatria Conservativa</h3>
+                              <p>Cura dei denti cariati con l'obiettivo di conservare l'elemento dentario il più a lungo possibile.</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-seedling"></i>i></div>
+                              <h3>Parodontologia</h3>
+                              <p>Diagnosi e cura delle malattie che colpiscono i tessuti di supporto dei denti (gengive e osso alveolare).</p>
+                    </div>
+                    <div class="trattamento-card">
+                              <div class="card-icon"><i class="fas fa-child"></i>i></div>
+                              <h3>Pedodonzia</h3>
+                              <p>Odontoiatria pediatrica specializzata nella cura dei denti dei bambini in un ambiente accogliente e rassicurante.</p>
+                    </div>
+            </div>
+      </div>
+  </section>section>
+
+  <!-- IL DOTTORE -->
+  <section id="roberto-landi" class="dottore">
+      <div class="container">
+            <div class="section-header">
+                    <h2>Dott. Roberto Landi</h2>
+                    <div class="section-divider"></div>
+            </div>
+            <div class="dottore-grid">
+                    <div class="dottore-info">
+                              <h3>Curriculum e Formazione</h3>
+                              <p>Il dott. Landi Roberto si è laureato in Odontoiatria e Protesi Dentaria presso la Seconda Università di Napoli.</p>
+                              <p>Iscritto all'Albo Provinciale degli Odontoiatri di Salerno con il n. 1163. Ha dedicato gran parte del suo tempo ad approfondire l'estetica dentale, sia dal punto di vista protesico che conservativo (otturazioni e ponti estetici), la Parodontologia, e l'Endodonzia.</p>
+                              <p>Si aggiorna continuamente seguendo Corsi e Seminari presso le Associazioni e Accademie più importanti del suo campo.</p>
+                              <h3>Corsi e Specializzazioni</h3>
+                              <p>Corsi e seminari presso le Associazioni e Accademie più importanti del suo campo. Ha frequentato il corso abilitante di BLS-D con defibrillatore semi-automatico.</p>
+                              <div class="competenze">
+                                          <h4>Competenze Principali</h4>
+                                          <div class="competenza-bar">
+                                                        <span>Implantologia</span>
+                                                        <div class="bar"><div class="bar-fill" style="width:90%"></div></div>
+                                          </div>
+                                          <div class="competenza-bar">
+                                                        <span>Chirurgia Dentale</span>
+                                                        <div class="bar"><div class="bar-fill" style="width:95%"></div></div>
+                                          </div>
+                                          <div class="competenza-bar">
+                                                        <span>Pedodonzia</span>
+                                                        <div class="bar"><div class="bar-fill" style="width:88%"></div></div>
+                                          </div>
+                                          <div class="competenza-bar">
+                                                        <span>Ortodonzia</span>
+                                                        <div class="bar"><div class="bar-fill" style="width:92%"></div></div>
+                                          </div>
+                              </div>
+                    </div>
+                    <div class="dottore-garanzia">
+                              <div class="garanzia-box">
+                                          <i class="fas fa-certificate"></i>i>
+                                          <h3>Garanzia Recupero Dentale</h3>
+                                          <p>Il nostro primo impegno è rappresentato dal recupero degli elementi dentari. Il Team di esperti Odontoiatri dello Studio Landi lavora ogni giorno con estrema cura e dedizione effettuando un trattamento odontoiatrico che mira ad una precisa diagnosi ed una premurosa attenzione al recupero dentale del paziente, anche nelle condizioni più complicate.</p>
+                                          <a href="#prenota" class="btn-primary">Contattaci</a>a>
+                              </div>
+                              <div class="radiografia-box">
+                                          <i class="fas fa-x-ray"></i>i>
+                                          <h3>Radiografia Istantanea Gratuita</h3>
+                                          <p>Offriamo una radiografia digitale istantanea gratuita al primo appuntamento per valutare la tua situazione dentale con la massima precisione.</p>
+                              </div>
+                    </div>
+            </div>
+      </div>
+  </section>section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+      <div class="container">
+            <h2>Vieni a trovarci.<br><em>Richiedi subito un appuntamento.</em></h2>
+            <a href="#prenota" class="btn-primary">
+                    <i class="fas fa-calendar-check"></i>i> Prenota un Appuntamento
+            </a>a>
+      </div>
+  </section>section>
+
+  <!-- FORM PRENOTA / CONTATTI -->
+  <section id="prenota" class="prenota">
+      <div class="container">
+            <div class="section-header">
+                    <h2>Prenota una Visita</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Compila il modulo e ti ricontatteremo entro 24 ore per confermare l'appuntamento</p>
+            </div>
+            <div class="prenota-grid">
+                    <form class="form-prenota" id="formPrenota">
+                              <div class="form-row">
+                                          <div class="form-group">
+                                                        <label for="nome">Nome *</label>label>
+                                                        <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+                                          </div>
+                                          <div class="form-group">
+                                                        <label for="cognome">Cognome *</label>label>
+                                                        <input type="text" id="cognome" name="cognome" placeholder="Il tuo cognome" required>
+                                          </div>
+                              </div>
+                              <div class="form-row">
+                                          <div class="form-group">
+                                                        <label for="telefono">Telefono *</label>label>
+                                                        <input type="tel" id="telefono" name="telefono" placeholder="+39 000 000 0000" required>
+                                          </div>
+                                          <div class="form-group">
+                                                        <label for="email">Email</label>label>
+                                                        <input type="email" id="email" name="email" placeholder="la-tua@email.it">
+                                          </div>
+                              </div>
+                              <div class="form-group">
+                                          <label for="trattamento">Trattamento di Interesse</label>label>
+                                          <select id="trattamento" name="trattamento">
+                                                        <option value="">– Seleziona un trattamento –</option>option>
+                                                        <option value="chirurgia-orale">Chirurgia Orale</option>option>
+                                                        <option value="protesi">Protesi</option>option>
+                                                        <option value="sbiancamento">Sbiancamento</option>option>
+                                                        <option value="radiografia">Radiografia Digitale 3D</option>option>
+                                                        <option value="endodonzia">Endodonzia</option>option>
+                                                        <option value="ortodonzia">Ortodonzia</option>option>
+                                                        <option value="igiene-dentale">Igiene Dentale</option>option>
+                                                        <option value="conservativa">Odontoiatria Conservativa</option>option>
+                                                        <option value="parodontologia">Parodontologia</option>option>
+                                                        <option value="pedodonzia">Pedodonzia</option>option>
+                                                        <option value="altro">Altro / Prima Visita</option>option>
+                                          </select>select>
+                              </div>
+                              <div class="form-group">
+                                          <label for="messaggio">Messaggio</label>label>
+                                          <textarea id="messaggio" name="messaggio" rows="4" placeholder="Descrivi brevemente il motivo della visita o qualsiasi altra informazione utile..."></textarea>
+                              </div>
+                              <div class="form-group form-privacy">
+                                          <input type="checkbox" id="privacy" name="privacy" required>
+                                          <label for="privacy">Acconsento al trattamento dei dati personali ai sensi del D.Lgs. 196/2003 e del GDPR 679/2016. *</label>label>
+                              </div>
+                              <button type="submit" class="btn-submit">
+                                          <i class="fas fa-paper-plane"></i>i> Invia Richiesta
+                              </button>button>
+                    </form>form>
+                    <div class="contatti-info">
+                              <h3>Dove Siamo</h3>
+                              <div class="info-item">
+                                          <i class="fas fa-map-marker-alt"></i>i>
+                                          <div>
+                                                        <strong>Indirizzo</strong>
+                                                        <p>Via Enrico Bottiglieri 11<br>84134 Salerno (SA)</p>
+                                          </div>
+                              </div>
+                              <div class="info-item">
+                                          <i class="fas fa-phone"></i>i>
+                                          <div>
+                                                        <strong>Telefono</strong>
+                                                        <p><a href="tel:+393206138265">+39 320 613 8265</a>a></p>
+                                          </div>
+                              </div>
+                              <div class="info-item">
+                                          <i class="fas fa-envelope"></i>i>
+                                          <div>
+                                                        <strong>Email</strong>
+                                                        <p><a href="mailto:info@robertolandi.it">info@robertolandi.it</a>a></p>
+                                          </div>
+                              </div>
+                              <div class="info-item">
+                                          <i class="fas fa-clock"></i>i>
+                                          <div>
+                                                        <strong>Orari</strong>
+                                                        <p>Lun – Ven: 9:00 – 19:00<br>Sab: 9:00 – 13:00</p>
+                                          </div>
+                              </div>
+                              <div class="social-links">
+                                          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i>i></a>a>
+                                          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i>i></a>a>
+                              </div>
+                    </div>
+            </div>
+      </div>
+  </section>section>
+
+  <!-- FOOTER -->
+  <footer>
+        <div class="footer-inner">
+                <div class="footer-col">
+                          <img src="logo.png" alt="Roberto Landi" class="footer-logo">
+                          <p>Tecnologia Dentale di Roberto Landi – Advanced Dental Solutions.<br>Studio dentistico a Salerno.</p>
+                </div>
+                <div class="footer-col">
+                          <h4>Trattamenti</h4>
+                          <ul>
+                                      <li><a href="#trattamenti">Chirurgia Orale</a>a></li>
+                                    <li><a href="#trattamenti">Protesi</a>a></li>
+                                    <li><a href="#trattamenti">Sbiancamento</a>a></li>
+                                    <li><a href="#trattamenti">Radiografia Digitale</a>a></li>
+                                    <li><a href="#trattamenti">Endodonzia</a>a></li>
+                                    <li><a href="#trattamenti">Ortodonzia</a>a></li>
+                                    <li><a href="#trattamenti">Parodontologia</a>a></li>
+                                    <li><a href="#trattamenti">Pedodonzia</a>a></li>
+                          </ul>
+                </div>
+              <div class="footer-col">
+                      <h4>Dove Siamo</h4>
+                      <p>Tecnologia Dentale di Roberto Landi<br>Via Enrico Bottiglieri 11<br>84134 Salerno</p>
+                      <p>Recapito telefonico diretto:<br><a href="tel:+393206138265">+39 320 613 8265</a>a></p>
               </div>
-          </section>
+              <div class="footer-col">
+                      <h4>Cookie e Privacy Policy</h4>
+                      <ul>
+                                <li><a href="#">Informativa sui Cookie</a>a></li>
+                                <li><a href="#">Informativa sulla Privacy</a>a></li>
+                      </ul>
+              </div>
+        </div>
+      <div class="footer-bottom">
+            <p>Tecnologia Dentale di Roberto Landi | 2026 | P.IVA 05893600658 | Tutti i diritti riservati.</p>
+      </div>
+  </footer>
 
-          <section id="contact">
-              <h2>Contatti</h2>
-              <p>Puoi contattarmi a: <a href="mailto:info@robertolandi.it">info@robertolandi.it</a></p>
-          </section>
-      </main>
+  <script>
+        // Menu mobile toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const nav = document.querySelector('header nav');
+        menuToggle.addEventListener('click', () => {
+                nav.classList.toggle('open');
+        });
 
-      <footer>
-          <p>&copy; 2026 Roberto Landi. Tutti i diritti riservati.</p>
-      </footer>
-  </body>
-  </html>
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                          header.classList.add('scrolled');
+                } else {
+                          header.classList.remove('scrolled');
+                }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                          e.preventDefault();
+                          const target = document.querySelector(this.getAttribute('href'));
+                          if (target) {
+                                      const offset = 80;
+                                      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+                                      window.scrollTo({ top, behavior: 'smooth' });
+                          }
+                          nav.classList.remove('open');
+                });
+        });
+
+        // Form submit
+        document.getElementById('formPrenota').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Grazie! La tua richiesta è stata inviata. Ti ricontatteremo entro 24 ore.');
+                this.reset();
+        });
+  </script>
+</body>
+</html>html>
+  </script></p></li></li></p></p></li></li>
+                          </ul>
+  </footer></p></p></strong></em></p></p></span></span></p></p></h4></h4></p>
+                                          </div></strong></p></p></h1></li></li>
+                            </ul>
+                  </nav>
+</body></title>
+  </head>
